@@ -26,7 +26,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.5",
-    "uniqCompNum": 5,
+    "uniqCompNum": 6,
     "versionPublish": "4.6.5"
   },
   "pages": {
@@ -42,59 +42,70 @@
       "components": [
         {
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showVideo": true,
-            "VideoUrl": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
-            "showArrow": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/-2000x949.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.5"
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/-2000x949.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "성령의 인격화 운동",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "<span style=\"font-style: normal;\">구기동영광교회는 은혜기, 수련기, 사명기라는 인격의 성장과정을 통해 예수그리스도를 닮아가며\n</span><span style=\"font-style: normal;\">이 땅에서 주어진 사명을 다하는 것을 목표로 합니다.</span>",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">자세히 보기</a>"
+              },
+              {
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=fgJvZ2blZ_E",
+                "title": "사역 스토리",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "<span style=\"font-style: normal;\">2001년 구기동에 설립한 구기동 영광교회의 사역 스토리\n<br>두날개 비전 쉐키나의 열방선교 테필린의 말씀전수 사역</span>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "IMAGE SLIDE",
+                "overlay": true,
+                "contentAlign": "right",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
           },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/play-button.svg"
-            },
-            "iconFont": {
-              "active": false,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "pencil",
-              "link": "#modalWindow",
-              "size": 0,
-              "color": "#e6e6e6",
-              "family": "et-line"
-            }
-          },
-          "title": "성령의 인격화 운동",
-          "text": "<span style=\"font-style: normal;\">구기동영광교회는 은혜기, 수련기, 사명기라는 <br>인격의 성장과정을 통해 예수그리스도를 닮아가며<br>이 땅에서 주어진 사명을 다하는 것을 목표로 합니다.</span>",
-          "text2": "<label class=\"startPreset\" for=\"modal\">Watch Video</label>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "alias": "mobirise3-blocks/components",
+          "articleLayout": false,
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "extHeader5",
-          "_anchor": "extHeader5-4",
+          "_name": "slider",
+          "_anchor": "slider-5",
           "_styles": {
-            "H3": {
-              "color": "#ffffff"
+            "H2": {
+              "font-size": "60px"
             },
             "SPAN": {
-              "color": "#ffffff"
-            },
-            "LABEL": {
-              "color": "#ffffff"
+              "font-size": "15px"
             }
           }
         },
