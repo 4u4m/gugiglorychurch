@@ -669,6 +669,15 @@ h6,
 .theme-border {
   border: 1px solid #c0a375;
 }
+#extHeader5-4 H3 {
+  color: #ffffff;
+}
+#extHeader5-4 SPAN {
+  color: #ffffff;
+}
+#extHeader5-4 LABEL {
+  color: #ffffff;
+}
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
