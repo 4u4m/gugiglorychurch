@@ -858,6 +858,12 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
+#custom-html-o {
+  /* Type valid CSS here */
+}
+#custom-html-o .my-image {
+  width: 100%;
+}
 .cid-qMm5jUoKzk {
   background-image: url("../../../assets/images/2-2000x1285.jpg");
 }
@@ -925,14 +931,10 @@ body {
 .cid-qMlZDSshyW .mbr-figure {
   padding: 0;
 }
-.cid-qMlZDSshyW .content-row {
-  background-color: #0c57bf;
-}
 .cid-qMlZDSshyW .content-row .media-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url("../../../assets/images/mbr-1350x1080.jpg");
 }
 .cid-qMlZDSshyW .content-row .media-content .mbr-overlay {
   background: linear-gradient(90deg, #0c57bf, #6441a5);
