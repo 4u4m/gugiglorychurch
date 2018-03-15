@@ -24,8 +24,8 @@
         "display4Font": "Poppins",
         "display4Size": 0.875,
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
       },
       "additionalSetColors": []
     },
@@ -40,7 +40,7 @@
     "siteUrl": "",
     "versionFirst": "4.6.5",
     "uniqCompNum": 38,
-    "versionPublish": "4.6.5",
+    "versionPublish": "4.6.6",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
