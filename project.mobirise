@@ -847,6 +847,9 @@
               ".form-control": {
                 "font-size": "1.12rem"
               }
+            },
+            "P": {
+              "text-align": "left"
             }
           },
           "_name": "form5",
