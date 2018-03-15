@@ -1173,9 +1173,14 @@ body {
 .cid-qLGLT1DdOL .mbr-gallery-filter ul li {
   padding: 0;
 }
+.cid-qMnMosfiDB {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
 .cid-qMnHnjk8QM {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   background-color: #efefef;
 }
 .cid-qMnHnjk8QM .mbr-iconfont {
@@ -1274,6 +1279,11 @@ body {
   .cid-qMnHnjk8QM .google-map {
     padding-bottom: 2rem;
   }
+}
+.cid-qMnMpjMt4Z {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
 }
 .cid-qLGLQ8raFA {
   padding-top: 90px;
