@@ -5699,6 +5699,12 @@ body {
   padding-bottom: 60px;
   background-color: #ffffff;
 }
+#custom-html-5s {
+  /* Type valid CSS here */
+}
+#custom-html-5s .my-image {
+  width: 100%;
+}
 .cid-qMEg2P1dPM {
   padding-top: 90px;
   padding-bottom: 90px;
